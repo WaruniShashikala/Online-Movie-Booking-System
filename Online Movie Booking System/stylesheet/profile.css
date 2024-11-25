@@ -1,0 +1,179 @@
+.body_profile{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #f1f1f1;
+}
+.title_p>h1{
+    color: rgb(59, 4, 223);
+}
+.container_p{
+    width: 90%;
+    height: 60%;
+    font-size: medium;
+    border-radius:2px;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.details_p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #bbf7c3;
+  
+}
+.input-box_p{
+  height: 100px;
+        font-size:25px;
+        color: #410f0f;
+        border:1px;
+        border-radius:10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+   /* z-index: 1;
+    top: 0;
+    overflow-x: hidden;*/
+    padding-top: 10px;
+  }
+  /* Control the left side */
+  .left {
+    display:flex;
+    width: 100%;
+  }
+  /* Control the right side */
+  .right {
+    height:100%;
+    display:inline;
+    padding-right: 100px;
+    padding-left: 0px;
+  }
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+.title_p{
+    font-size: 25px;
+    font-weight: 100px;
+    text-align: center;
+    color: #db0000;
+}
+
+table{
+    font-family: 'Courier New', Courier, monospace;
+    height: 80%;
+    width: 50%;
+}
+
+/* rdit profile css*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #1258db;
+}
+
+* {box-sizing: border-box}
+
+/* Set a style for all buttons */
+.profile_BTN{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.profile_BTN:hover {
+  opacity:1;
+  background-color: #bf55e3;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+    width: 100%;
+  }
+}

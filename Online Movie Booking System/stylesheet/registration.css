@@ -1,0 +1,116 @@
+.registerbox{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.8);
+}
+
+.registerbody{
+    background: #ccc;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerimg{
+    width: 530px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.registercontant{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.registerform{
+    margin-top: 28px;
+    margin-left: 85px;
+}
+
+.register_h2{
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.register_inputs{
+    margin-left: 25px;
+}
+
+.alreadyhavepara{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.t_and_c{
+    color: blue;
+    text-decoration: none;
+}
+
+.t_and_c:hover{
+    text-decoration: underline;
+}
+
+.accept{
+    color: black;
+}
+
+.registerform input[type=text]{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.registerform input[type=password]{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.registerform input[type=checkbox]{
+    margin: 10px;
+    margin-right: 7px;
+}
+
+.registerform input[type=submit]{
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #ff7200;
+    color: white;
+    border: #ff7200;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.registerform input[type=submit]:hover{
+   background-color: black;
+   box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.6);
+}
+
+.login_a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: blue;
+}
+
+.login_a:hover{
+    text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,74 @@
+.forgot_container{
+    background: #ccc;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot_box{
+    display: flex;
+    width: 50%;
+    margin: 100px;
+    height: 500px;
+    background: white;
+    box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.8);
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.forgot_img{
+    width: 340px;
+    height: 420px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+.forgot_h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: center;
+   
+}
+
+.forgot_input_{
+    margin: 20px;
+    padding: 10px;
+}
+
+.forgot_inputbox_{
+    width: 220px;
+    height: 40px;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+
+}
+
+.forgot_form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot_save{
+    margin-left: 0px;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #ff7200;
+    color: white;
+    border: #ff7200;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.forgot_save:hover{
+    background-color: black;
+    box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.6);
+}

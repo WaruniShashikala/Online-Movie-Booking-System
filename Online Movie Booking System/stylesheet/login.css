@@ -1,0 +1,107 @@
+.loginbox{
+    display: flex;
+    width: 50%;
+    margin: 100px;
+    height: 500px;
+    background: white;
+    box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.8);
+}
+
+.loginbody{
+    background: #ccc;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fogotpwAndRemember{
+    display: flex;
+    margin-top: 20px;
+}
+
+.loginform{
+    padding: 20px;
+}
+
+.loginheding{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.textfild{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.loginimg{
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.loginform input[type=checkbox]{
+    margin-right: 5px;
+}
+
+.rememberme{
+    margin-left: 6px;
+}
+
+.forgot{
+    margin-left: 40px;
+}
+
+.LogAndSingupbutton{
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #ff7200;
+    color: white;
+    border: #ff7200;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.LogAndSingupbutton1{
+    margin-left: 10px;
+    background-color: #ff7200;
+    color: white;
+    border: #ff7200;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 11.5px 122px 11.5px 122px;
+}
+
+.LogAndSingupbutton:hover{
+    background-color: black;
+    box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.6);
+}
+
+.LogAndSingupbutton1:hover{
+    background-color: black;
+    box-shadow: 1px 7px 9px 1px rgba(0, 0, 0, 0.6);
+}
+
+.donthaveac{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.forgot_{
+    text-decoration: none;
+}
+
+.forgot_:hover{
+    text-decoration: underline;
+}

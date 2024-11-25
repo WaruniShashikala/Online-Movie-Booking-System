@@ -1,0 +1,140 @@
+.contactusbox {
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 850px;
+  margin-right: 200px;
+  margin-left: 300px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.contactusheading {
+  margin: 20px;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 3px solid #ccc;
+  margin: 20px auto;
+}
+
+.contactusDetailsbox {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  margin: 10px;
+}
+
+.contactusheading {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.contactusDetailsbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px 50px 20px 50px;
+}
+
+.contactusform {
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.contactinput {
+  display: flex;
+}
+
+.lable {
+  margin: 20px;
+}
+
+.contactusinput {
+  width: 550px;
+  height: 30px;
+  margin-left: 50px;
+  margin: 20px;
+  resize: none;
+  padding: 5px;
+}
+
+.contactusinputarea {
+  width: 550px;
+  height: 30px;
+  margin-left: 50px;
+  margin: 20px;
+  resize: none;
+  height: 200px;
+  padding: 5px;
+}
+
+.symbol1 {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.symbol2 {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.symbol3 {
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.symbol4 {
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.info_p {
+  margin: 10px;
+  margin-left: 0px;
+}
+.teldetails {
+  margin: 0px;
+  padding: 10px;
+}
+
+.info_ {
+  display: flex;
+}
+
+.info_p {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.details .info_ i {
+  font-size: 20px;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #ff7200;
+}
+
+.contactus_submit {
+  background-color: #ff7200;
+  padding: 12px;
+  margin-left: 360px;
+  border-radius: 10px;
+  border: #ff7200;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contactus_submit:hover {
+  background: gray;
+  color: white;
+}
